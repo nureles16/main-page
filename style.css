@@ -1,13 +1,13 @@
 .header {
     overflow: hidden;
-    background-color: rgb(35, 45, 75);
-    color: white;
+    background-color: #001E52;
+    color: #FFFFFF;
     padding: 1% 1%;
 }
 
 .header a {
     float: left;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -22,13 +22,13 @@
 }
 
 .header a:hover {
-    background-color: #FF5C0A;
-    color: white;
+    background-color: #DD6A00;
+    color: #FFFFFF;
 }
 
 .header a.active {
-    background-color: #FF5C0A;
-    color: white;
+    background-color: #DD6A00;
+    color: #FFFFFF;
 }
 
 .header-right {
@@ -62,22 +62,22 @@
 }
 
 .b{
-    border-color: #FF5C0A;
-    color: #FF5C0A;
-    background-color: white;
+    border-color: #DD6A00;
+    color: #DD6A00;
+    background-color: #FFFFFF;
 }
 .b:hover {
-    border-color: #FF5C0A;
-    color: #FF5C0A;
+    border-color: #DD6A00;
+    color: #DD6A00;
     background-color: rgba(255,92,10,0.1);
     cursor: pointer;
 }
 .information{
     margin: 2% 10% 0 2%;
     padding: 2% 5% 1% 5%;
-    background-color: rgb(35, 45, 75);
+    background-color: #001E52;
     font-family: "Open Sans",sans-serif;
-    color: white;
+    color: #FFFFFF;
     width: 95%;
 }
 .a{
@@ -93,38 +93,38 @@
 .table{
     margin: 2% 10% 0 2%;
     padding: 2% 5% 1% 5%;
-    background-color: rgb(35, 45, 75);
+    background-color: #001E52;
     font-family: "Open Sans",sans-serif;
-    color: white;
+    color: #FFFFFF;
     width: 95%;
 }
 table, th, td {
     margin: 1% 10% 0 1%;
     padding: 2% 5% 1% 5%;
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     border-collapse: collapse;
 }
 th, td {
-    background-color: rgb(35, 45, 75);
+    background-color: #001E52;
 }
 .h{
-    color: white;
+    color: #FFFFFF;
     font-size: 150%;
     padding: 1% 15%;
 }
 .column{
     font-size: 110%;
-    color: white;
+    color: #FFFFFF;
 }
 .g{
-    border-color: #FF5C0A;
-    color: #FF5C0A;
-    background-color: white;
+    border-color: #DD6A00;
+    color: #DD6A00;
+    background-color: #FFFFFF;
 }
 .g:hover {
-    border-color: #FF5C0A;
-    color: white;
-    background-color: rgb(255,92,10);
+    border-color: #DD6A00;
+    color: #FFFFFF;
+    background-color: #DD6A00;
     cursor: pointer;
 }
 .order{
@@ -137,18 +137,18 @@ th, td {
 #submit{
     margin-top: 1%;
     width: 20%;
-    border-color: #FF5C0A;
-    color: #FF5C0A;
-    background-color: white;
+    border-color: #DD6A00;
+    color: #DD6A00;
+    background-color: #FFFFFF;
 }
 #submit:hover {
-    border-color: #FF5C0A;
-    color: white;
-    background-color: rgb(255,92,10);
+    border-color: #DD6A00;
+    color: #FFFFFF;
+    background-color: #DD6A00;
     cursor: pointer;
 }
 footer{
-    background-color: rgb(35, 45, 75);
-    color:white;
+    background-color: #001E52;
+    color:#FFFFFF;
     padding: 1%;
 }
