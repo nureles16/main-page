@@ -195,29 +195,53 @@ footer {
     color: #FFFFFF;
     padding: 1%;
 }
+.quote{
+    padding: 2% 0 0 11%;
+}
 
 @media (max-width: 768px) {
+    footer{
+        margin: 0 2% 0 0;
+    }
     footer .row {
         padding-left: 5%;
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
-    footer .col-2 {
+    .first{
+        padding-left: 30%;
+    }
+    .second{
+        padding: 0 -10% 0 10%;
         width: 100%;
-        margin-bottom: 20px;
+        font-size: 110%;
     }
-    footer ul {
-        margin: 0;
-        padding: 0;
+    .third{
+        margin: 3% 0 0 -1%;
+        width: 100%;
+        font-size: 110%;
     }
-    footer ul li {
-        margin-bottom: 10px;
+    .fourth{
+        flex-direction: row;
+        width: 100%;
+        padding-top: 1%;
+        font-size: 100%;
     }
-    footer ul li p {
-        margin: 0;
-    }
-    footer h6 {
-        padding: 2% 0;
-        text-align: center;
+    /*footer ul {*/
+    /*    margin: 0;*/
+    /*    padding: 0;*/
+    /*}*/
+    /*footer ul li {*/
+    /*    margin-bottom: 10px;*/
+    /*}*/
+    /*footer ul li p {*/
+    /*    margin: 0;*/
+    /*}*/
+    /*footer h6 {*/
+    /*    padding: 2% 0;*/
+    /*    text-align: center;*/
+    /*}*/
+    .quote{
+        margin-left: -11%;
     }
 }
 
