@@ -133,6 +133,7 @@
 .main{
     margin-bottom: 2%;
 }
+/**/
 .table{
     margin: 2% 10% 0 2%;
     padding: 2% 5% 1% 5%;
@@ -170,6 +171,29 @@ th, td {
     background-color: #DD6A00;
     cursor: pointer;
 }
+/* For screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    .table, table, th, td {
+        margin: 1% 2% 0 2%; /* Adjust margins for smaller screens */
+        padding: 1% 2% 1% 2%; /* Adjust padding for smaller screens */
+    }
+    .h {
+        font-size: 120%; /* Adjust font size for table headers */
+    }
+}
+
+/* For screens larger than 768px */
+@media only screen and (min-width: 769px) {
+    .table, table, th, td {
+        margin: 1% 10% 0 1%;
+        padding: 2% 5% 1% 5%;
+    }
+    .h {
+        font-size: 150%;
+    }
+}
+
+/**/
 .order{
     margin: 2% 10% 0 2%;
     padding: 2% 5% 1% 5%;
