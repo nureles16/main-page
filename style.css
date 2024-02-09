@@ -1,3 +1,4 @@
+/*Changes are below*/
 .header {
     overflow: hidden;
     background-color: #001E52;
@@ -96,7 +97,7 @@
         font-size: 130%;
     }
 }
-
+/*Changes are above*/
 .owl-item.cloned .header-area.style-02.header-bg-02 {
     background-image: url('first-main.png');
     background-size: cover;
