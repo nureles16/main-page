@@ -95,3 +95,44 @@ th, td {
     background-color: #DD6A00;
     cursor: pointer;
 }
+footer {
+    background-color: #001E52;
+    color: #FFFFFF;
+    padding: 1%;
+}
+.quote{
+    padding: 2% 0 0 11%;
+}
+
+@media (max-width: 768px) {
+    footer{
+        margin: 0 2% 0 1%;
+        padding-bottom: 5%;
+    }
+    footer .row {
+        padding-left: 5%;
+        /*flex-direction: column;*/
+    }
+    .first{
+        padding-left: 30%;
+    }
+    .second{
+        padding: 0 -10% 0 10%;
+        width: 100%;
+        font-size: 110%;
+    }
+    .third{
+        margin: 3% 0 0 -1%;
+        width: 100%;
+        font-size: 110%;
+    }
+    .fourth{
+        flex-direction: row;
+        width: 100%;
+        padding-top: 1%;
+        font-size: 100%;
+    }
+    .quote{
+        margin-left: -11%;
+    }
+}
