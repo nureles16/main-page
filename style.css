@@ -231,6 +231,14 @@ th, td {
     margin: 0 10% 0 2%;
     padding: 0 5% 1% 5%;
 }
+.n{
+    border: 3px solid;
+}
+@media (max-width: 768px) {
+    .calc{
+        margin: 1% 1% 1% 1%;
+    }
+}
 
 footer {
     background-color: #001E52;
