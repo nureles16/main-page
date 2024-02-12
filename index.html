@@ -130,7 +130,7 @@
 </div>
 <div class="order">
     <div>
-        <h3>Вызов курьера</h3>
+        <h2>Вызов курьера</h2>
         <form>
             <div class="row">
                 <label for="address1" class="form-label">Откуда*</label>
@@ -181,6 +181,94 @@
                 </div>
             <br><br>
             <input type="submit" value="Оставить заявку" id="submit">
+            </div>
+        </form>
+    </div>
+</div>
+<br>
+<div class="calculator">
+    <div>
+        <h2>Калькулятор</h2>
+        <form>
+            <h5>АДРЕС</h5>
+            <div class="row">
+                <label for="address2" class="form-label">ОТКУДА*</label>
+                <div class="col-md-5 input">
+                    <select name="cars" id="addres1" class="input form-select">
+                        <option value="" disabled selected hidden>Город/Район</option>
+                    </select>
+                </div>
+                <div class="col-md-5">
+                    <select name="cars" id="addres2" class="input form-select">
+                        <option value="" disabled selected hidden>Адрес</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <label for="address3" class="form-label">КУДА*</label>
+                <div class="col-md-5 input">
+                    <select name="cars" id="add1" class="input form-select">
+                        <option value="" disabled selected hidden>Город/Район</option>
+                    </select>
+                </div>
+                <div class="col-md-5">
+                    <select name="cars" id="add2" class="input form-select">
+                        <option value="" disabled selected hidden>Адрес</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <h5>ТАРИФ</h5>
+                <label for="address2" class="form-label">ТАРИФ</label>
+                <div class="col-md-5 input">
+                    <select name="cars" id="ad1" class="input form-select">
+                        <option value="" disabled selected hidden>ТАРИФ</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <h5>ГАБАРИТЫ</h5>
+            <div class="row">
+                <div class="col-md-5 input">
+                    <label>ВЕС(кг)</label><br>
+                    <input type="number" name="weight" class="form-control"><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label>ВЫСОТА(см)</label><br>
+                    <input type="number" name="height" class="form-control"><br>
+                </div>
+                <div class="col-md-4">
+                    <label>ШИРИНА(см)</label><br>
+                    <input type="number" name="width" class="form-control"><br>
+                </div>
+                <div class="col-md-4">
+                    <label>ДЛИНА(см)</label><br>
+                    <input type="number" name="length" class="form-control"><br>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <label>ОБЩИЙ ВЕС</label><br>
+                    <input type="number" name="total-weight" class="form-control"><br>
+                </div>
+                <div class="col-md-4">
+                    <label>ОБЬЕМ. ВЕС</label><br>
+                    <input type="number" name="volume-weight" class="form-control"><br>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>ИТОГО</h3>
+                </div>
+                <div class="col-md-4">
+                    <label>СОМЫ</label><br>
+                    <input type="number" name="total" class="form-control"><br>
+                </div>
             </div>
         </form>
     </div>
