@@ -136,6 +136,7 @@
 .main{
     margin-bottom: 2%;
 }
+/**/
 .table{
     margin: 2% 10% 0 2%;
     padding: 2% 5% 1% 5%;
@@ -173,6 +174,25 @@ th, td {
     background-color: #DD6A00;
     cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+    .table, table, th, td {
+        margin: 1% 2% 0 2%;
+        padding: 1% 2% 1% 2%;
+    }
+    .h {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .table, table, th, td {
+        margin: 1% 10% 0 1%;
+        padding: 2% 5% 1% 5%;
+    }
+    .h {
+        font-size: 150%;
+    }
+}
 .order{
     margin: 2% 10% 0 2%;
     padding: 2% 5% 1% 5%;
@@ -181,8 +201,8 @@ th, td {
     margin: 0 1% 1% 0;
 }
 #submit{
-    margin-top: 1%;
-    width: 20%;
+    margin-top: 2%;
+    width: 100%;
     border-color: #DD6A00;
     color: #DD6A00;
     background-color: #FFFFFF;
@@ -193,6 +213,19 @@ th, td {
     background-color: #DD6A00;
     cursor: pointer;
 }
+@media (min-width: 768px) {
+    .order {
+        margin: 2% 10% 0 2%;
+        padding: 2% 5% 1% 5%;
+    }
+    .input {
+        margin: 0 1% 1% 0;
+    }
+    #submit {
+        margin-top: 1%;
+        width: 20%;
+    }
+}
 footer {
     background-color: #001E52;
     color: #FFFFFF;
@@ -201,7 +234,6 @@ footer {
 .quote{
     padding: 2% 0 0 11%;
 }
-
 @media (max-width: 768px) {
     footer{
         margin: 0 2% 0 1%;
@@ -209,7 +241,6 @@ footer {
     }
     footer .row {
         padding-left: 5%;
-        /*flex-direction: column;*/
     }
     .first{
         padding-left: 30%;
