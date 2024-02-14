@@ -128,63 +128,159 @@
         </tr>
     </table>
 </div>
-<div class="order">
-    <div>
-        <h2>Вызов курьера</h2>
-        <form>
-            <div class="row">
-                <label for="address1" class="form-label">Откуда*</label>
-                <div class="col-md-5 input">
-                    <select name="cars" id="address1" class="input form-select">
-                        <option value="" disabled selected hidden>Город/Район</option>
-                </select>
-                </div>
-                <div class="col-md-5">
-                    <select name="cars" id="address2" class="input form-select">
-                        <option value="" disabled selected hidden>Мкрн/Село</option>
-                    </select>
-                </div>
-                <div class="col-md-5">
-                    <select name="cars" id="address3" class="input form-select">
-                        <option value="" disabled selected hidden>Адрес</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row">
-                <label for="cars" class="form-label">Куда*</label>
-                <div class="col-md-5 input">
-                    <select name="cars" id="cars" class="input form-select">
-                        <option value="" disabled selected hidden>Город/Район</option>
-                    </select>
-                </div>
-                <div class="col-md-5">
-                    <select name="cars" id="cars1" class="input form-select">
-                        <option value="" disabled selected hidden>Мкрн/Село</option>
-                    </select>
-                </div>
-                <div class="col-md-5">
-                    <select name="cars" id="cars2" class="input form-select">
-                        <option value="" disabled selected hidden>Адрес</option>
-                    </select>
-                </div>
-                <div class="row">
-                    <label for="cars" class="form-label">Номер телефона*</label>
-                    <div class="col-md-5 input">
-                            <input type="text" class="form-control" id="usr" placeholder="Телефон отправителя">
+<div class="container mt-5">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="#tab1">Вызов курьера</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#tab2">Заключение договора</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#tab3">Обратная связь</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="tab1">
+        <div class="order">
+            <div>
+                <h2>Вызов курьера</h2>
+                <form>
+                    <div class="row">
+                        <label for="address1" class="form-label">Откуда*</label>
+                        <div class="col-md-5 input">
+                            <select name="cars" id="address1" class="input form-select">
+                                <option value="" disabled selected hidden>Город/Район</option>
+                            </select>
+                        </div>
+                        <div class="col-md-5">
+                            <select name="cars" id="address2" class="input form-select">
+                                <option value="" disabled selected hidden>Мкрн/Село</option>
+                            </select>
+                        </div>
+                        <div class="col-md-5">
+                            <select name="cars" id="address3" class="input form-select">
+                                <option value="" disabled selected hidden>Адрес</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <br><br>
-                <div class="row">
-                    <label for="message">ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</label><br>
-                    <textarea id="message" name="message" rows="3" cols="30"></textarea>
-                    <br>
-                </div>
-            <br><br>
-            <input type="submit" value="Оставить заявку" id="submit">
+                    <div class="row">
+                        <label for="cars" class="form-label">Куда*</label>
+                        <div class="col-md-5 input">
+                            <select name="cars" id="cars" class="input form-select">
+                                <option value="" disabled selected hidden>Город/Район</option>
+                            </select>
+                        </div>
+                        <div class="col-md-5">
+                            <select name="cars" id="cars1" class="input form-select">
+                                <option value="" disabled selected hidden>Мкрн/Село</option>
+                            </select>
+                        </div>
+                        <div class="col-md-5">
+                            <select name="cars" id="cars2" class="input form-select">
+                                <option value="" disabled selected hidden>Адрес</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <label for="cars" class="form-label">Номер телефона*</label>
+                            <div class="col-md-5 input">
+                                <input type="text" class="form-control" id="usr" placeholder="Телефон отправителя">
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="row">
+                            <label for="message">ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</label><br>
+                            <textarea id="message" name="message" rows="3" cols="30"></textarea>
+                            <br>
+                        </div>
+                        <br><br>
+                        <input type="submit" value="Оставить заявку" id="submit">
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
+    </div>
+    <div class="tab-content" id="tab2">
+        <div class="order">
+            <div>
+                <h2>Заключение договора</h2>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-5 input">
+                            <label class="form-label calc">КОМПАНИЯ*</label><br>
+                            <input placeholder="Amanat Road" type="text" class="form-control n"><br>
+                        </div>
+                        <div class="col-md-6 col-lg-5 input">
+                            <label class="form-label calc">ИМЯ*</label>
+                            <input placeholder="Азамат Азаматов" type="tel" class="form-control n"><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-5">
+                            <label class="form-label calc">НОМЕР ТЕЛЕФОНА*</label><br>
+                            <input placeholder="+996 777999888" type="text" class="form-control n"><br>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <label class="form-label calc">E-MAIL*</label>
+                            <input placeholder="amanatroad@gmail.com" type="tel" class="form-control n"><br>
+                        </div>
+                        <div class="col-md-12 col-lg-5">
+                            <label class="form-label calc">ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</label>
+                            <textarea placeholder="Ваш отзыв" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-3">
+                            <button class="btn g">Оставить заявку</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="tab-content" id="tab3">
+        <div class="order">
+            <div>
+                <h2>Обратная связь</h2>
+                <form>
+                    <div class="row">
+                        <div class="col-md-10 col-lg-5 input">
+                            <label class="form-label calc">ТЕМА ВОПРОСА</label><br>
+                            <input placeholder="Тема" type="text" class="form-control n"><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-5 input">
+                            <label class="form-label calc">СООБЩЕНИЕ*</label>
+                            <textarea placeholder="Ваш отзыв" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-5">
+                            <label class="form-label calc">ИМЯ*</label><br>
+                            <input placeholder="Azamat Azamatov" type="text" class="form-control n"><br>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <label class="form-label calc">НОМЕР ТЕЛЕФОНА*</label>
+                            <input placeholder="+996 777999888" type="tel" class="form-control n"><br>
+                        </div>
+                        <div class="col-md-12 col-lg-5">
+                            <label class="form-label calc">E-MAIL*</label>
+                            <input placeholder="amanatroad@gmail.com" type="tel" class="form-control n"><br>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-3">
+                            <button class="btn g">Оставить заявку</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
+
 <br>
 <div class="calculator">
     <div>
@@ -301,6 +397,16 @@
         </form>
     </div>
 </div>
+
+<style>
+    .tab-content {
+        display: none;
+    }
+
+    .tab-content:target {
+        display: block;
+    }
+</style>
 
 <br>
 <footer>
