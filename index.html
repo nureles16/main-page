@@ -205,79 +205,88 @@
                 <h2>Заключение договора</h2>
                 <form>
                     <div class="row">
-                        <div class="col-md-6 col-lg-5 input">
-                            <label class="form-label calc">КОМПАНИЯ*</label><br>
-                            <input placeholder="Amanat Road" type="text" class="form-control n"><br>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="form-group">
+                                <label for="company" class="form-label calc">КОМПАНИЯ*</label>
+                                <input id="company" placeholder="Amanat Road" type="text" class="form-control n">
+                            </div>
                         </div>
-                        <div class="col-md-6 col-lg-5 input">
-                            <label class="form-label calc">ИМЯ*</label>
-                            <input placeholder="Азамат Азаматов" type="tel" class="form-control n"><br>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="form-group">
+                                <label for="name" class="form-label calc">ИМЯ*</label>
+                                <input id="name" placeholder="Азамат Азаматов" type="text" class="form-control n">
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-lg-5">
-                            <label class="form-label calc">НОМЕР ТЕЛЕФОНА*</label><br>
-                            <input placeholder="+996 777999888" type="text" class="form-control n"><br>
+                            <div class="form-group">
+                                <label for="phone" class="form-label calc">НОМЕР ТЕЛЕФОНА*</label>
+                                <input id="phone" placeholder="+996 777999888" type="text" class="form-control n">
+                            </div>
                         </div>
                         <div class="col-md-6 col-lg-5">
-                            <label class="form-label calc">E-MAIL*</label>
-                            <input placeholder="amanatroad@gmail.com" type="tel" class="form-control n"><br>
+                            <div class="form-group">
+                                <label for="email" class="form-label calc">E-MAIL*</label>
+                                <input id="email" placeholder="amanatroad@gmail.com" type="email" class="form-control n">
+                            </div>
                         </div>
                         <div class="col-md-12 col-lg-5">
-                            <label class="form-label calc">ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</label>
-                            <textarea placeholder="Ваш отзыв" class="form-control"></textarea>
+                            <div class="form-group">
+                                <label for="additional-info" class="form-label calc">ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</label>
+                                <textarea id="additional-info" placeholder="Ваш отзыв" class="form-control"></textarea>
+                            </div>
                         </div>
                     </div>
-                    <br>
                     <div class="row">
                         <div class="col-md-12 col-lg-3">
-                            <button class="btn g">Оставить заявку</button>
+                            <button type="submit" class="btn g">Оставить заявку</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
+
     </div>
     <div class="tab-content" id="tab3">
-        <div class="order">
-            <div>
-                <h2>Обратная связь</h2>
-                <form>
-                    <div class="row">
-                        <div class="col-md-10 col-lg-5 input">
-                            <label class="form-label calc">ТЕМА ВОПРОСА</label><br>
-                            <input placeholder="Тема" type="text" class="form-control n"><br>
-                        </div>
+        <div>
+            <h2>Обратная связь</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-10 col-lg-5 input">
+                        <label class="form-label calc">ТЕМА ВОПРОСА</label><br>
+                        <input placeholder="Тема" type="text" class="form-control n"><br>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6 col-lg-5 input">
-                            <label class="form-label calc">СООБЩЕНИЕ*</label>
-                            <textarea placeholder="Ваш отзыв" class="form-control"></textarea>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-5 input">
+                        <label class="form-label calc">СООБЩЕНИЕ*</label>
+                        <textarea placeholder="Ваш отзыв" class="form-control"></textarea>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6 col-lg-5">
-                            <label class="form-label calc">ИМЯ*</label><br>
-                            <input placeholder="Azamat Azamatov" type="text" class="form-control n"><br>
-                        </div>
-                        <div class="col-md-6 col-lg-5">
-                            <label class="form-label calc">НОМЕР ТЕЛЕФОНА*</label>
-                            <input placeholder="+996 777999888" type="tel" class="form-control n"><br>
-                        </div>
-                        <div class="col-md-12 col-lg-5">
-                            <label class="form-label calc">E-MAIL*</label>
-                            <input placeholder="amanatroad@gmail.com" type="tel" class="form-control n"><br>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-5">
+                        <label class="form-label calc">ИМЯ*</label><br>
+                        <input placeholder="Azamat Azamatov" type="text" class="form-control n"><br>
                     </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-12 col-lg-3">
-                            <button class="btn g">Оставить заявку</button>
-                        </div>
+                    <div class="col-md-6 col-lg-5">
+                        <label class="form-label calc">НОМЕР ТЕЛЕФОНА*</label>
+                        <input placeholder="+996 777999888" type="tel" class="form-control n"><br>
                     </div>
-                </form>
-            </div>
+                    <div class="col-md-12 col-lg-5">
+                        <label class="form-label calc">E-MAIL*</label>
+                        <input placeholder="amanatroad@gmail.com" type="tel" class="form-control n"><br>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 col-lg-3">
+                        <button class="btn g">Оставить заявку</button>
+                    </div>
+                </div>
+            </form>
         </div>
+
     </div>
 </div>
 
