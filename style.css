@@ -17,6 +17,7 @@
 }
 .logo{
     width: 6%;
+    padding: 0 10% 0 -10%;
 }
 .header a.logo {
     font-size: 10px;
@@ -226,6 +227,19 @@ th, td {
         width: 20%;
     }
 }
+.calculator{
+    margin: 0 10% 0 2%;
+    padding: 0 5% 1% 5%;
+}
+.n{
+    border: 2px solid;
+}
+@media (max-width: 768px) {
+    .calc{
+        margin: 1% 1% 1% 1%;
+    }
+}
+
 footer {
     background-color: #001E52;
     color: #FFFFFF;

@@ -130,7 +130,7 @@
 </div>
 <div class="order">
     <div>
-        <h3>Вызов курьера</h3>
+        <h2>Вызов курьера</h2>
         <form>
             <div class="row">
                 <label for="address1" class="form-label">Откуда*</label>
@@ -181,6 +181,94 @@
                 </div>
             <br><br>
             <input type="submit" value="Оставить заявку" id="submit">
+            </div>
+        </form>
+    </div>
+</div>
+<br>
+<div class="calculator">
+    <div>
+        <h2>Калькулятор</h2>
+        <form>
+            <h5>АДРЕС</h5>
+            <div class="row">
+                <label for="address2" class="form-label">ОТКУДА*</label>
+                <div class="col-md-5">
+                    <select id="addres1" class="form-select n" style="margin-bottom: 2%">
+                        <option value="" disabled selected hidden>Город/Район</option>
+                    </select>
+                </div>
+                <div class="col-md-5">
+                    <select id="addres2" class="form-select n">
+                        <option value="" disabled selected hidden>Адрес</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <label for="address3" class="form-label">КУДА*</label>
+                <div class="col-md-5">
+                    <select id="add1" class="form-select n" style="margin-bottom: 2%">
+                        <option value="" disabled selected hidden>Город/Район</option>
+                    </select>
+                </div>
+                <div class="col-md-5">
+                    <select id="add2" class="form-select n">
+                        <option value="" disabled selected hidden>Адрес</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <h5>ТАРИФ</h5>
+                <label for="address2" class="form-label">ТАРИФ</label>
+                <div class="col-md-5">
+                    <select id="ad1" class="form-select n">
+                        <option value="" disabled selected hidden>ТАРИФ</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <h5>ГАБАРИТЫ</h5>
+            <div class="row">
+                <div class="col-md-5">
+                    <label class="calc">ВЕС(кг)</label><br>
+                    <input placeholder="0" type="number" class="form-control n"><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 calc">
+                    <label class="calc">ВЫСОТА(см)</label><br>
+                    <input placeholder="0" type="number" name="height" class="form-control n"><br>
+                </div>
+                <div class="col-md-4">
+                    <label class="calc">ШИРИНА(см)</label><br>
+                    <input placeholder="0" type="number" name="width" class="form-control n"><br>
+                </div>
+                <div class="col-md-4">
+                    <label class="calc">ДЛИНА(см)</label><br>
+                    <input placeholder="0" type="number" name="length" class="form-control n"><br>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <label class="calc">ОБЩИЙ ВЕС</label><br>
+                    <input placeholder="0" type="number" name="total-weight" class="form-control n"><br>
+                </div>
+                <div class="col-md-4">
+                    <label class="calc">ОБЬЕМ. ВЕС</label><br>
+                    <input placeholder="0" type="number" name="volume-weight" class="form-control n"><br>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>ИТОГО</h3>
+                </div>
+                <div class="col-md-4">
+                    <label>СОМЫ</label><br>
+                    <input placeholder="0" type="number" name="total" class="form-control n"><br>
+                </div>
             </div>
         </form>
     </div>
