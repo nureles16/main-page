@@ -99,7 +99,7 @@
 }
 
 .owl-item.cloned .header-area.style-02.header-bg-02 {
-    background-image: url('first-main.png');
+    background-image: url("./images/first-main.png");
     background-size: cover;
     background-position: center;
 }
