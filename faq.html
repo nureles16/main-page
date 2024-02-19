@@ -1,105 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <title>Company</title>
-    <link rel="stylesheet" href="about.css">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="faq.css">
 </head>
 <body>
-<div>
-    <div class="header">
-        <a class="logo" style="background-color: white"><img src="./images/logo.svg" alt="logo" height="40" style="padding-left: -10%"></a>
-        <div class="header-right">
+<div class="header">
+    <a class="logo" style="background-color: white"><img src="./images/logo.svg" alt="logo" height="40" style="padding-left: -10%"></a>
+    <div class="header-right">
+        <a href="index.html">Главная</a>
+        <a href="company.html">О компании</a>
+        <a href="services.html">Услуги</a>
+        <a href="faq.html">FAQs</a>
+        <a>Контакты</a>
+    </div>
+    <div id="mobile_menu">
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+        <div id="mobile-links">
             <a href="index.html">Главная</a>
             <a href="company.html">О компании</a>
             <a href="services.html">Услуги</a>
-            <a href="faq.html">FAQs</a>
+            <a>Калькулятор</a>
+            <a>FAQs</a>
             <a>Контакты</a>
         </div>
-        <div id="mobile_menu">
-            <label for="hamburger">&#9776;</label>
-            <input type="checkbox" id="hamburger" />
-            <div id="mobile-links">
-                <a href="index.html">Главная</a>
-                <a href="company.html">О компании</a>
-                <a href="services.html">Услуги</a>
-                <a>Калькулятор</a>
-                <a>FAQs</a>
-                <a>Контакты</a>
-            </div>
-        </div>
-    </div>
-    <div class="owl-item cloned" style="height: 250%;width: 100%; margin-right: 0;">
-        <div class="header-area style-02 header-bg-02">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="header-inner">
-                            <h1 class="title">Служба почты и эспресс-доставки по всему Кыргызстану</h1>
-                            <div class="btn-wrapper  desktop-left ">
-                                <button type="button" class="btn b">Отследить посылку</button>
-                                <button type="button" class="btn b">Калькулятор</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="information">
-        <h1>О компании</h1>
-        <p>О компании Компания Amanat Road – современный, активный,
-            динамично развивающийся и клиентоориентированный участник кыргызстанского рынка экспресс-доставки посылок и грузов.
-            Коротко о нашей работе Компания предлагает полный спектр курьерских услуг по принципу «из рук в руки», «от двери до двери» в максимально короткое транзитное время,
-            в целостности и сохранности. Наши услуги Компания Amanat Road предлагает, как частным,
-            так и корпоративным клиентам полный комплекс транспортно-логистических услуг и доставляет грузы любых объемов и габаритов, размеров и веса; посылки;
-            корреспонденцию в максимально сжатые сроки по всей территории Кыргызстана;
-            обеспечивает гарантию и качество выполнения взятых на себя обязательств.</p>
     </div>
 </div>
-<div class="statistics">
-    <h1 class="main">О нас в цифрах</h1>
+<div class="questions">
+    <h1>Вопросы и ответы</h1>
     <div class="row">
-        <div class="col-sm-2">
-            <h1>400</h1>
-            <p>более 400 заказов в день</p>
+        <div class="col-5">
+            <h6>Сколько стоит доставка?</h6>
+            <p>Стоимость доставки рассчитывается в зависимости от веса, габаритов и куда доставляется.
+                Вы можете воспользоваться калькулятором на сайте и получить предварительную цену.
+                Также можно скачать коммерческое предложение в разделе услуги.</p>
         </div>
-        <div class="col-sm-2">
-            <h1>4</h1>
-            <p>года на рынке</p>
+        <div class="col-5">
+            <h6>Есть ли у вас какие то скидки?</h6>
+            <p>Да, конечно! Если вы самостоятельно принесете посылку в наш офис, то предоставляется скидка в 20%
+                на доставку в центральные города областей, кроме Баткена. Это такие города как Каракол, Нарын, Ош, Жалал-Абад и Талас.
+                Также если в день вы отправляете 10 и более посылок, то каждая 10-ая бесплатная.</p>
         </div>
-        <div class="col-sm-2">
-            <h1>1000</h1>
-            <p>более 1000 В2В клиентов</p>
+        <div class="col-5">
+            <h6>Что такое выкуп?</h6>
+            <p>Мы можем выкупить посылку вместо Вас, а вы проведёте оплату курьеру наличными при получении или провести безналичным способом.</p>
         </div>
-        <div class="col-sm-2">
-            <h1>100K</h1>
-            <p>более 100 000 В2С клиентов</p>
+        <div class="col-5">
+            <h6>В каких городах у вас есть офисы?</h6>
+            <p>Головной офис компании находится в г.Бишкек.
+                Также офисы есть в городах Ош и Жалал-Абад. В других городах у нас есть представительства и региональные курьеры.</p>
         </div>
-        <div class="col-sm-2">
-            <h1>200K</h1>
-            <p>более 200 000 посылок отправлено</p>
+        <div class="col-5">
+            <h6>Какие тарифы есть для частных лиц?</h6>
+            <p>По доставке внутри страны есть тарифы для физических лиц. из Офиса в Офис от 99 сомов из
+                Офиса до Адресата от 199 сомов от Адресат до Адресанта от 250 сомов</p>
         </div>
-        <div class="col-sm-2">
-            <h1>200</h1>
-            <p>более 200 стран по миру</p>
+        <div class="col-5">
+        <h6>Что такое наложенный выкуп?</h6>
+        <p>Это тот же выкуп, но оплату мы переводим в течение 48 часов после того, как забрали посылку.
+            То есть после получения оплаты от Адресанта.</p>
         </div>
-    </div>
-</div>
-<div class="information">
-    <h1>Почему с нами выгодно работать?</h1>
-    <div class="row">
-        <div class="col-4 quotes">Поручите нам доставку самых важных посылок или грузов.</div>
-        <div class="col-4 quotes">Мы экономим ваши ценные ресурсы: время и деньги.</div>
-        <div class="col-4 quotes">Оставайтесь с нашей с компанией в надежном партнерстве и сотрудничестве.</div>
-        <div class="col-4 quotes">У нас есть программа лояльности для самых активных клиентов.</div>
-        <div class="col-4 quotes">Мы дарим бонусы и подарки.</div>
-        <div class="col-4 quotes">Мы доставим любой товар и предоставим услугу всего за несколько часов.</div>
-        <div class="col-4 quotes">Мы расширяем горизонты ваших возможностей.</div>
+        <div class="col-5">
+            <h6>Какая максимальная сумма выкупа?</h6>
+            <p>Выкупаем товар до 5000 сомов.</p>
+        </div>
     </div>
 </div>
 <br>
