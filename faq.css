@@ -1,0 +1,165 @@
+.header {
+    overflow: hidden;
+    background-color: #001E52;
+    color: #FFFFFF;
+    padding: 1% 1%;
+}
+
+.header a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 110%;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.logo{
+    width: 6%;
+    padding: 0 10% 0 -10%;
+}
+.header a.logo {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #DD6A00;
+    color: #FFFFFF;
+}
+
+.header a.active {
+    background-color: #DD6A00;
+    color: #FFFFFF;
+}
+
+.header-right {
+    float: right;
+    margin: 0.5% 0 -1% 0;
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+    .logo{
+        width: 25%;
+        height: 25%;
+    }
+}
+
+#mobile_menu {
+    display: none;
+}
+
+#mobile_menu label {
+    cursor: pointer;
+}
+
+#mobile-links {
+    display: none;
+}
+
+#hamburger {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#hamburger:checked ~ #mobile-links {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .header-right {
+        display: none;
+    }
+
+    #mobile_menu {
+        display: block;
+    }
+
+    label{
+        float: right;
+        margin-top: -13%;
+        margin-right: 3%;
+        font-size: 130%;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.row {
+    margin-right: 1%;
+    padding: 2% 1% 1% 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-5 {
+    padding-bottom: 2%;
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+}
+
+@media only screen and (max-width: 768px) {
+    .col-5 {
+        flex: 0 0 calc(100% - 20px);
+        max-width: calc(100% - 20px);
+    }
+}
+
+
+footer {
+    background-color: #001E52;
+    color: #FFFFFF;
+    padding: 1%;
+}
+.quote{
+    padding: 2% 0 0 11%;
+}
+@media (max-width: 768px) {
+    footer{
+        margin: 0 2% 0 1%;
+        padding-bottom: 5%;
+    }
+    footer .row {
+        padding-left: 5%;
+    }
+    .first{
+        padding-left: 30%;
+    }
+    .second{
+        padding: 0 -10% 0 10%;
+        width: 100%;
+        font-size: 110%;
+    }
+    .third{
+        margin: 3% 0 0 -1%;
+        width: 100%;
+        font-size: 110%;
+    }
+    .fourth{
+        flex-direction: row;
+        width: 100%;
+        padding-top: 1%;
+        font-size: 100%;
+    }
+    .quote{
+        margin-left: -11%;
+    }
+}

@@ -1,106 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <title>Services</title>
-    <link rel="stylesheet" href="service.css">
+    <title>Company</title>
+    <link rel="stylesheet" href="contacts.css">
 </head>
 <body>
-<div class="header">
-    <a class="logo" style="background-color: white"><img src="./images/logo.svg" alt="logo" height="40" style="padding-left: -10%"></a>
-    <div class="header-right">
-        <a href="index.html">Главная</a>
-        <a href="company.html">О компании</a>
-        <a href="services.html">Услуги</a>
-        <a href="faq.html">FAQs</a>
-        <a href="contacts.html">Контакты</a>
-    </div>
-    <div id="mobile_menu">
-        <label for="hamburger">&#9776;</label>
-        <input type="checkbox" id="hamburger" />
-        <div id="mobile-links">
+<div>
+    <div class="header">
+        <a class="logo" style="background-color: white"><img src="./images/logo.svg" alt="logo" height="40" style="padding-left: -10%"></a>
+        <div class="header-right">
             <a href="index.html">Главная</a>
             <a href="company.html">О компании</a>
             <a href="services.html">Услуги</a>
-            <a>Калькулятор</a>
-            <a>FAQs</a>
-            <a>Контакты</a>
+            <a href="faq.html">FAQs</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+        <div id="mobile_menu">
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger" />
+            <div id="mobile-links">
+                <a href="index.html">Главная</a>
+                <a href="company.html">О компании</a>
+                <a href="services.html">Услуги</a>
+                <a>Калькулятор</a>
+                <a>FAQs</a>
+                <a>Контакты</a>
+            </div>
         </div>
     </div>
 </div>
-<table class="u">
-    <thead>
-    <tr>
-        <th><h2>Для частных лиц</h2></th>
-        <th><h2>Для бизнеса</h2></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td data-label="Для частных лиц">
-            <h5>Услуга «переезд»</h5>
-            <hr>
-            <p>Организация и логистика переездов из офиса или дома. Как внутри страны, так и за ее пределами.</p>
-            <button type="submit" class="btn g">Коммерческое предложение</button>
-        </td>
-        <td data-label="Для бизнеса">
-            <h5>VIP-ассистент</h5>
-            <hr>
-            <p>Специально выбранный сотрудник нашей компании,
-                который может решить ваши дела и выступить представителем на бизнес сделке, в суде и т.д. по доверенности.</p>
-            <button type="submit" class="btn g">Коммерческое предложение</button>
-        </td>
-    </tr>
-    <tr>
-        <td data-label="Для частных лиц">
-            <h5>Доставка посылок с выкупом</h5>
-            <hr>
-            <p>Груз любых размеров и видов упакуем и доставим в целости и сохранности.
-                Как внутри Кыргызстана, так и по всему миру.
-                Удобная система расчета габаритов. Выкуп товаров осуществляется до ____ сомов.</p>
-            <button type="submit" class="btn g">Коммерческое предложение</button>
-        </td>
-        <td data-label="Для бизнеса">
-            <h5>Фулфилмент (склад)</h5>
-            <hr>
-            <p>Полный комплекс работ по доставке заказов покупателям: с момента оформления заказа и до момента получения покупки,
-                включающий приемку, хранение, обработку, комплектацию и упаковку заказов. Подходит для владельцев интернет-магазинов.</p>
-            <button type="submit" class="btn g">Коммерческое предложение</button>
-        </td>
-    </tr>
-    <tr>
-        <td data-label="Для частных лиц">
-            <h5>Почтовые услуги</h5>
-            <hr>
-            <p>Документы/письма/корреспонденция доставляются в специализированных сейф-конвертах под ответственность нашей компании.</p>
-            <button type="submit" class="btn g">Коммерческое предложение</button>
-        </td>
-        <td data-label="Для бизнеса">
-            <h5>Почтовые услуги</h5>
-            <hr>
-            <p>Документы/письма/корреспонденция доставляются в специализированных сейф-конвертах под ответственность нашей компании.</p>
-            <button type="submit" class="btn g">Коммерческое предложение</button>
-        </td>
-    </tr>
-    </tbody>
-</table>
-<div class="information">
-    <h1>Платежи</h1>
-    <div class="row">
-        <div class="col-4 pay">Optima bank</div>
-        <div class="col-4 pay">Balance.kg</div>
-        <div class="col-4 pay">MegaPay</div>
-        <div class="col-4 pay">Наличный расчет</div>
-        <div class="col-4 pay">Безналичный расчет</div>
-        <div class="col-4 pay">Элсом</div>
-        <div class="col-4 pay">По банковским реквизитам</div>
-        <div class="col-4 pay">Криптовалюта</div>
-        <div class="col-4 pay">О! Деньги</div>
-        <div class="col-4 pay">MBank</div>
-    </div>
+<div class="contacts">
+    <h1>Контакты - Наши отделения</h1>
 </div>
 <br>
 <footer>
